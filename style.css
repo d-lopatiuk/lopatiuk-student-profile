@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1d1;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: gray;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.about, .details {
+    width: 30%;
+    text-align: left;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width: 24px;
+    margin: 5px;
+}
